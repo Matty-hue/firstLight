@@ -11,9 +11,9 @@ void setup()
 void loop() 
 {
     digitalWrite(LED_BUILTIN, HIGH);
-    delay(200);
+    delay(500);
     digitalWrite(LED_BUILTIN, LOW);
-    delay(200);
+    delay(500);
 
     Serial.println(sin(n*2*3.1416/20));
     n++;
